@@ -1,9 +1,13 @@
+"use client";
 import { Button } from "@/components/ui/button";
+import { Modal } from "@/components/ui/modal";
 
 export default function SetupPage() {
   return (
    <div>
-    <p>This is a protected route!</p>
+    <Modal isOpen onClose={()=>{}} title="Test" description="test description">
+        children
+    </Modal>
    </div>
   );
 }

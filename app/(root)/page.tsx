@@ -1,10 +1,9 @@
 import { Button } from "@/components/ui/button";
 
-export default function Home() {
+export default function SetupPage() {
   return (
    <div>
-    <p>Hello admin dashboard</p>
-    <Button size="lg" variant="link">Click me</Button>
+    <p>This is a protected route!</p>
    </div>
   );
 }
